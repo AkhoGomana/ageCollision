@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FDD835"
+    tools:context=".SportsActivityEditView">
+
+    <TextView
+        android:id="@+id/txtTeamInfo"
+        android:layout_width="364dp"
+        android:layout_height="692dp"
+        android:text="The Golden State warriors are a bastketball team from San Fransisco, California.This team plays in the NBA, at a professional level. This team was founded in 1946 by Peter A.Tyrrel and Joe Lacob.Their home arena, Chase Centre has been part of them throughout their title wins. With millions of fans from all around the globe, they still have the best 3 point shooter, Steph Curry on the team as their point guard."
+        android:textColor="#1E88E5"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

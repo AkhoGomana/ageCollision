@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1F4D87"
+    tools:context=".SportsActivityEdit">
+
+    <Button
+        android:id="@+id/btnMore"
+        android:layout_width="225dp"
+        android:layout_height="103dp"
+        android:backgroundTint="#C5B420"
+        android:text="Learn More"
+        android:textColor="#F83949AB"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.71" />
+
+    <TextView
+        android:id="@+id/txtHeading"
+        android:layout_width="348dp"
+        android:layout_height="295dp"
+        android:text="GOLDEN STATE WARRIORS"
+        android:textColor="#FFDE0E"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.253"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.036" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="272dp"
+        android:layout_height="95dp"
+        android:text="...the mission to strengthen and empower underserved communities by providing programs and activities that promote self-esteem,respect,integrity,teamwork and literacy"
+        android:textColor="#FFDF09"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.884"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.278" />
+</androidx.constraintlayout.widget.ConstraintLayout>
