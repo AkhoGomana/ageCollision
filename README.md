@@ -1,6 +1,6 @@
 My Android History App
 
-This is an educational yet fun android app specifically designed for students which compares their ages with the ages of our historical figures. The age must only be between 20 and 100 years of age.It teaches the students about the death ages of some of our fallen historical figures.
+This is an educational yet fun android app specifically designed for students which compares their ages with the ages of our historical who died between the ages of 20 and 100 years old.It teaches the students about the death ages of some of our fallen historical figures.
 
 In the app, a history themed background is used in order to enthral the student’s interests. The image used was extracted from the google website.
 The app is designed in a way that the user is prompted to enter their age, using a button for execution of code and using an edit text tool to enable user input. Next to the edit text, a text view with “Enter age” as its text. This helps guide the user on providing input.
@@ -8,12 +8,12 @@ The app is designed in a way that the user is prompted to enter their age, using
 
 The full coding of the app went as follows :
 
-First off, a button is  introduced to the computer, declared as a  private lateinit variable. The private lateinit function makes the button accessable to the user only in the class ageCollision, as it is declared under it.(reference for class info)
+First off, a button is  introduced to the computer, declared as a  private lateinit variable. The private lateinit function makes the button accessable to the user only in the class ageCollision, as it is declared under it as said by my recent tutor, (B.Yuveeka,2024).
  A textview named txtEnterAge was also  declared under the same class as well as
 editEnterAge, as an EditText and btnClear as a button. All the above mentioned variables were declared as private lateinit var 's making them only accessible int the ageCollision class for the app.
 
 On to intialising my variables, all initialisations were done under the system override fun onCreate, in order to execute the code when the app is run is running and the constriant layout creates.
-All four of my above declared variables were initialised using the findViewById() function.
+All four of my above declared variables were initialised using the findViewById() function.This functions allows the program to find the variables using their ID's.
 
 For my button btnGenerate, owe used the setOnClickListener function to make the button clickable.
 Inside the fuction a immutable variable "age" was ceated to prompt the age value from the user. The 'age' variable gets a text value from an editText,"editEnterAge',converts it to a string using the toString() function, also doing an integer or null check using the IntOrNull() function.
